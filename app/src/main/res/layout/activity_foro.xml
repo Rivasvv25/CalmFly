@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#7F00D4AA"
+    tools:context=".foro">
+
+    <!-- Barra de búsqueda -->
+    <EditText
+        android:id="@+id/barraBusqueda"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Buscar foros"
+        android:padding="12dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <!-- Botón para crear foro -->
+    <Button
+        android:id="@+id/botonCrearForo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Crear Foro Nuevo"
+        android:padding="12dp"
+        android:backgroundTint="#8BC34A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barraBusqueda"
+        android:textColor="#FFFFFF" />
+
+    <!-- Botón para leer foros -->
+    <Button
+        android:id="@+id/botonLeerForos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Leer Foros"
+        android:padding="12dp"
+        android:backgroundTint="#03A9F4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/botonCrearForo"
+        android:textColor="#FFFFFF" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

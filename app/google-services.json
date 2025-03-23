@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "443879224996",
+    "project_id": "calmflyingsof",
+    "storage_bucket": "calmflyingsof.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443879224996:android:9c265d4f2b68d94715d831",
+        "android_client_info": {
+          "package_name": "com.example.calmfly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1BjHm3TaewCaq1YRqS7H9llJWhOhHhZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
